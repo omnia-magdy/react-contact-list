@@ -1,0 +1,54 @@
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact-details {
+  background-color: #eef0f5;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info {
+  display: flex;
+  gap: 10px;
+}
+.info p {
+  background-color: #4989ef;
+  color: white;
+  padding: 4px;
+  border-radius: 6px;
+}
+.info .id {
+  background-color: #000000aa;
+}
+button {
+  padding: 4px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.contact-details button {
+  background-color: #b60505;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.inputs input {
+  padding: 10px;
+  border-radius: 6px;
+}
+.inputs button {
+  background-color: #4989ef;
+  padding: 10px;
+}
